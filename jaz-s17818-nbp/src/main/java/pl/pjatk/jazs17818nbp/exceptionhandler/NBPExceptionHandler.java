@@ -1,4 +1,4 @@
-package pl.pjatk.jazs17818nbp.eceptionhandler;
+package pl.pjatk.jazs17818nbp.exceptionhandler;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
