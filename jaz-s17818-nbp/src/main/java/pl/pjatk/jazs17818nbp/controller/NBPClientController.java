@@ -35,21 +35,18 @@ public class NBPClientController {
           name = "currency",
           type = "String",
           value = "parameter that represents the currency",
-          example = "1",
           required = true)
       @PathVariable String currency,
       @ApiParam(
           name = "startDate",
           type = "String",
           value = "parameter that represents the start date",
-          example = "1",
           required = true)
       @PathVariable String startDate,
       @ApiParam(
           name = "endDate",
           type = "String",
           value = "parameter that represents the end date",
-          example = "1",
           required = true)
       @PathVariable String endDate) {
 

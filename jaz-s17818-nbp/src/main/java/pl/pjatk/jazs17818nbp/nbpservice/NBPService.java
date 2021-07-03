@@ -13,7 +13,7 @@ import pl.pjatk.jazs17818nbp.repository.RequestDataRepository;
 public class NBPService {
 
   private final RestTemplate restTemplate;
-  private RequestDataRepository requestDataRepository;
+  private final RequestDataRepository requestDataRepository;
 
   public NBPService(RestTemplate restTemplate,
       RequestDataRepository requestDataRepository) {
