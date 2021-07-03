@@ -21,7 +21,7 @@ public class NBPClientController {
     this.nbpService = nbpService;
   }
 
-  @ApiOperation(value = "Get movie for given ID",
+  @ApiOperation(value = "Get average course",
       response = Double.class,
       notes = "This method will return average course for given currency from start date to end date")
   @ApiResponses(value = {
